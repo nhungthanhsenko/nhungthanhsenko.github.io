@@ -1,12 +1,7 @@
-title: Thiên Xuân
-email: thienxuan1.business@gmail.com
+title: Quạt Điện Nhung Thành
 description: >-
-  Chuyên cung cấp quạt điện Senko, thiết bị điện gia dụng giá rẻ. Hàng chính hãng đảm bảo chất lượng, độ bền cao, bảo hành 2 năm, giao hàng nhanh chóng.
 baseurl: ""
 url: ""
-github_username:  phamthienads
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-destination: ../htdocs

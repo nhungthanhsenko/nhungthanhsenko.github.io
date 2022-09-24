@@ -2,50 +2,14 @@
 layout: default
 title: Điện Gia Dụng Giá Sỉ
 ---
-<div class="main-page-banner pb-10 off-white-bg">
+<div class="main-page-banner home-3">
     <div class="container">
         <div class="row">
             {%- include menu-pc.html -%}
-            <div class="col-xl-9 col-lg-8 slider_box">
-                <div class="theme-default">
-                    <div class="top-banner">
-                        <a href="/quat-dien/"><img src="\assets\slider\quat-dien-senko-gia-re.jpg" data-thumb="\assets\slider\quat-dien-senko-gia-re.jpg" alt="" title=""></a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
-<div class="image-banner pb-10 off-white-bg">
-    <div class="container">
-        <div class="col-img">
-            <a target="_blank" rel="nofollow" href="https://shopee.vn/thienxuanstore"><img src="\assets\banner\shopee.jpg"></a>
-        </div>
-    </div>
-</div>
-<div class="hot-deal-products">
-    <div class="container">
-       <div class="post-title pb-10">
-           <h2>Sản Phẩm Bán Chạy</h2>
-       </div>
-    </div>
-</div>
-<div class="second-arrivals-product pb-15">
-    <div class="container">
-        <div class="main-product-tab-area">
-            <div class="tab-content">
-                <div class="best-seller-pro-active owl-carousel">
-                    {% for product in site.data.san-pham %}
-                        {% if product.bestsell == "x" %}
-                            {%- include show-product.html -%}
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="hot-deal-products">
+<div class="hot-deal-products mt-10">
     <div class="container">
        <div class="post-title pb-10">
            <h2>Quạt Bàn</h2>
@@ -155,19 +119,25 @@ title: Điện Gia Dụng Giá Sỉ
         </div>
     </div>
 </div>
-<!--
-<div class="big-banner pb-sm-30">
-    <div class="container big-banner-box">
-        <div class="col-img">
-            <a href="/quat-treo/">
-            <img src="\assets\banner\quat-treo-senko.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-img">
-            <a href="/quat-ban/">
-            <img src="\assets\banner\quat-ban-senko.jpg" alt="">
-            </a>
+<div class="hot-deal-products">
+    <div class="container">
+       <div class="post-title pb-10">
+           <h2>Quạt Hút</h2>
+       </div>
+    </div>
+</div>
+<div class="second-arrivals-product pb-15">
+    <div class="container">
+        <div class="main-product-tab-area">
+            <div class="tab-content">
+                <div class="best-seller-pro-active owl-carousel">
+                    {% for product in site.data.san-pham %}
+                        {% if product.type2 == "hut" %}
+                            {%- include show-product.html -%}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </div>
 </div>
--->
