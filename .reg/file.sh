@@ -88,8 +88,9 @@ do
     echo "          </div>" >> $link.html
     echo "      </div>" >> $link.html
     echo "      {%- include detail-2.html -%}" >> $link.html
-    echo "      " >> $link.html
-    echo "                                " >> $link.html
+    echo "      {%- include detail-3.html -%}" >> $link.html
+    echo "                                    <p>TEST CONTENT</p>" >> $link.html
+    echo "                                {%- include detail-4.html -%}" >> $link.html
     echo "{% endif %}" >> $link.html
     echo "{% endfor %}" >> $link.html
     mv $link.html ../product-detail/$link.html

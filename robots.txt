@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://thienxuan.store/sitemap.xml
