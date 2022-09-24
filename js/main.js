@@ -138,7 +138,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 1,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             480: {
@@ -165,7 +165,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 1,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             480: {
@@ -189,7 +189,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
     $('.brand-banner').owlCarousel({
         loop: true,
         nav: true,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         navText: ["<i class='lnr lnr-arrow-left'></i>", "<i class='lnr lnr-arrow-right'></i>"],
         smartSpeed: 1200,
@@ -197,7 +197,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 1,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             380: {
@@ -214,7 +214,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
     $('.brand-banner-sidebar').owlCarousel({
         loop: true,
         nav: false,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         navText: ["<i class='lnr lnr-arrow-left'></i>", "<i class='lnr lnr-arrow-right'></i>"],
         smartSpeed: 1200,
@@ -222,7 +222,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 1,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             380: {
@@ -255,7 +255,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
             responsive: {
                 0: {
                     items: 1,
-                    autoplay: true,
+                    autoplay: false,
                     smartSpeed: 500
                 },
                 768: {
@@ -285,7 +285,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
             responsive: {
                 0: {
                     items: 1,
-                    autoplay: true,
+                    autoplay: false,
                     smartSpeed: 500
                 },
                 768: {
@@ -313,7 +313,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 2,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             450: {
@@ -340,7 +340,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 1,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             450: {
@@ -371,7 +371,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 1,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             450: {
@@ -406,7 +406,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 1,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             768: {
@@ -434,7 +434,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 1,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             450: {
@@ -462,7 +462,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 1,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             450: {
@@ -493,7 +493,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
         responsive: {
             0: {
                 items: 5,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 500
             },
             768: {
