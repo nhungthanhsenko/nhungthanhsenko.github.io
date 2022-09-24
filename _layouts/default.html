@@ -1,0 +1,37 @@
+<?php
+	session_start();
+	include_once('db/connect.php');
+ ?>
+<!DOCTYPE html>
+<html class="no-js" lang="vi">
+    {%- include head.html -%}
+    <body>
+        <div class="wrapper">
+            {%- include header.html -%}
+            {{ content }}
+            {%- include footer.html -%}
+        </div>
+        <script src="\js\vendor\jquery-3.6.1.min.js"></script>
+        <script src="\js\jquery.countdown.min.js"></script>
+        <script src="\js\jquery.meanmenu.min.js"></script>
+        <script src="\js\jquery.scrollUp.js"></script>
+        <script src="\js\jquery.nivo.slider.js"></script>
+        <script src="\js\jquery.fancybox.min.js"></script>
+        <script src="\js\jquery.nice-select.min.js"></script>
+        <script src="\js\jquery-ui.min.js"></script>
+        <script src="\js\owl.carousel.min.js"></script>
+        <script src="\js\popper.min.js"></script>
+        <script src="\js\bootstrap.min.js"></script>
+        <script src="\js\plugins.js"></script>
+        <script src="\js\main.js"></script>
+        <script src="\js\search.js"></script>
+        <script>
+            var sjs = SimpleJekyllSearch({
+                searchInput: document.getElementById('search-input'),
+                resultsContainer: document.getElementById('results-container'),
+                json: '/search.json',
+                searchResultTemplate: '<div class="search-div"><a href="/{url}/"><span><img src="/assets/img/{category}/active/{date}"></span><span class="name-search">{title}</span></a></div>'
+            })
+        </script>
+    </body>
+</html>

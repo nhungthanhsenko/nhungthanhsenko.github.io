@@ -1,0 +1,44 @@
+﻿@charset "UTF-8";
+
+@font-face {
+  font-family: 'regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('regular'), url(s/regular.otf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'regularitalic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('regularitalic'), url(s/regularitalic.otf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'bold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('bold'), url(s/bold.otf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'boldItalic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('boldItalic'), url(s/bolditalic.otf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'semibold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('semibold'), url(s/semibold.otf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'semibolditalic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('semibolditalic'), url(s/semibolditalic.otf) format('truetype');
+  font-display: swap;
+}

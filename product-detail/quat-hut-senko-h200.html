@@ -1,0 +1,25 @@
+---
+layout: product-detail
+title: Quạt Hút Senko H200
+permalink: /quat-hut-senko-h200/
+---
+{% assign model = "h200" %}
+{% for product in site.data.san-pham %}
+  {% if product.model  == model %}
+      {%- include detail-1.html -%}
+      <div class="tab-content">
+                <div id="thumb1" class="tab-pane fade show active">
+                    <a data-fancybox="images" href="\assets\img\{{ model }}\quat-hut-senko-h200.webp"><img src="\assets\img\{{ model }}\active\quat-hut-senko-h200-active.webp" alt="product-view"></a>
+                </div>
+      </div>
+      <div class="product-thumbnail mt-15">
+          <div class="thumb-menu owl-carousel nav tabs-area" role="tablist">
+              <a class="active" data-toggle="tab" href="#thumb1"><img src="\assets\img\{{ model }}\thumb\quat-hut-senko-h200-thumb.webp" alt="product-thumbnail"></a>
+          </div>
+      </div>
+      {%- include detail-2.html -%}
+      
+                                    
+                                
+{% endif %}
+{% endfor %}

@@ -1,0 +1,15 @@
+---
+---
+[
+  {% for product in site.data.san-pham %}
+    {
+
+      "title"    : "{{ product.name }}",
+      "url"      : "{{ product.link }}",
+      "category" : "{{ product.model }}",
+      "tags"     : "{{ product.price }}",
+      "date"     : "{{ product.showimg }}"
+
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

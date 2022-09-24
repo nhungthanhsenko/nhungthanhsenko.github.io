@@ -1,0 +1,12 @@
+---
+layout: list-product
+title: Quạt Đứng
+permalink: /quat-dung/
+---
+{% for product in site.data.san-pham %}
+    {% if product.type2 == "dung" %}
+        <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+            {%- include show-product.html -%}
+        </div>
+    {% endif %}
+{% endfor %}

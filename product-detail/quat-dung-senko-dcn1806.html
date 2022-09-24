@@ -1,0 +1,29 @@
+---
+layout: product-detail
+title: Quạt Đứng Senko DCN1806
+permalink: /quat-dung-senko-dcn1806/
+---
+{% assign model = "dcn1806" %}
+{% for product in site.data.san-pham %}
+  {% if product.model  == model %}
+      {%- include detail-1.html -%}
+      <div class="tab-content">
+                <div id="thumb1" class="tab-pane fade show active">
+                    <a data-fancybox="images" href="\assets\img\{{ model }}\quat-dung-senko-dcn1806-mau-den-cam.webp"><img src="\assets\img\{{ model }}\active\quat-dung-senko-dcn1806-mau-den-cam-active.webp" alt="product-view"></a>
+                </div>
+          <div id="thumb2" class="tab-pane fade">
+              <a data-fancybox="images" href="\assets\img\{{ model }}\quat-dung-senko-dcn1806-mau-den-ket.webp"><img src="\assets\img\{{ model }}\active\quat-dung-senko-dcn1806-mau-den-ket-active.webp" alt="product-view"></a>
+          </div>
+      </div>
+      <div class="product-thumbnail mt-15">
+          <div class="thumb-menu owl-carousel nav tabs-area" role="tablist">
+              <a class="active" data-toggle="tab" href="#thumb1"><img src="\assets\img\{{ model }}\thumb\quat-dung-senko-dcn1806-mau-den-cam-thumb.webp" alt="product-thumbnail"></a>
+              <a class="active" data-toggle="tab" href="#thumb2"><img src="\assets\img\{{ model }}\thumb\quat-dung-senko-dcn1806-mau-den-ket-thumb.webp" alt="product-thumbnail"></a>
+          </div>
+      </div>
+      {%- include detail-2.html -%}
+      
+                                    
+                                
+{% endif %}
+{% endfor %}

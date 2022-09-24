@@ -1,0 +1,156 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+	.single-megamenu ul li a {
+		font-size: 13px
+}
+	.vertical-menu-list > li a {
+		line-height: 30px;
+		padding: 6px 20px
+}
+	.tabs-area li {
+		margin-left: 25px
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.vertical-menu-list > li a {
+		line-height: 30px;
+		padding: 6px 20px
+}
+	.tabs-area li a {
+		font-size: 14px
+}
+	.vertical-menu > span {
+		font-size: 17px
+}
+	.slider_box {
+		margin-left: 0;
+		padding-left: 15px;
+		padding-right: 15px
+}
+}
+@media (max-width: 991px) {
+	.logo {
+		text-align: center
+}
+	.vertical-menu-list {
+		display: none
+}
+	.tabs-area li {
+		margin-left: 13px
+}
+	.mb-all-15 {
+		margin-bottom: 15px
+}
+	.vertical-menu {
+		margin-bottom: 10px
+}
+}
+@media (max-width: 767px) {
+	.slider_box {
+		margin-left: 0;
+		padding-left: 15px;
+		padding-right: 16px
+}
+	.social-footer > li {
+		margin-bottom: 10px
+}
+	.product-header {
+		font-size: 20px
+}
+	.main-thumb-desc.tabs-area > li > a {
+		font-size: 15px;
+		line-height: 16px
+}
+	.vertical-menu > span {
+		font-size: 16px
+}
+	.product-header {
+		font-size: 16px
+}
+	.pro-price .price {
+		font-size: 25px
+}
+	.pb-sm-30{
+		padding-bottom: 30px
+}
+	.pt-sm-10{
+		padding-top: 10px
+}
+	.pb-sm-10{
+		padding-bottom: 10px
+}
+	.pb-sm-5{
+		padding-bottom: 5px !important
+}
+	.mb-sm-40{
+		margin-bottom: 40px
+}
+	.footer-top {
+		padding-bottom: 0
+}
+	.footer-top .single-footer.mb-sm-40{
+		margin-bottom: 20px
+}
+}
+@media (max-width: 479px) {
+	#grid-view .col-6 {
+		max-width: 50%;
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%
+}
+	.hot-product2 .pro-actions {
+		display: block;
+		padding-right: 0
+}
+	.hot-product2 .actions-primary {
+		margin-bottom: 10px
+}
+}
+@media (max-width: 575px) {
+	.box-quantity.hot-product2 {
+		flex-direction: column
+}
+	.box-quantity.hot-product2 .pro-actions {
+		margin-top: 1px
+}
+	.main-thumb-desc.tabs-area > li > a {
+		font-size: 14px;
+		line-height: 18px;
+		padding: 10px
+}
+	.post-title h2 {
+		font-size: 16px
+}
+	.hot-deal-products .post-title h2 {
+		font-size: 18px
+}
+}
+@media (max-width: 420px) {
+	.main-product-tab-area .single-product .pro-content {
+		overflow: initial
+}
+	.categorie-search-box input {
+		padding: 0 60px 0 20px
+}
+	p,.pro-desc-details {
+		font-size: 13px
+}
+	.vertical-menu > span {
+		font-size: 15px
+}
+	.vertical-menu > span {
+		height: 52px;
+		line-height: 55px
+}
+	#cate-mobile-toggle > ul > li > a {
+		font-size: 14px
+}
+	#cate-mobile-toggle .category-sub li a {
+		font-size: 13px
+}
+	.main-product-tab-area .single-product .pro-img {
+		float: none;
+		margin-left: 0;
+		width: 100%;
+		max-width: 100%
+}
+}

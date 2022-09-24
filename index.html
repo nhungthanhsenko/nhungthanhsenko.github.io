@@ -1,0 +1,143 @@
+---
+layout: default
+title: Điện Gia Dụng Giá Sỉ
+---
+<div class="main-page-banner pb-10 off-white-bg">
+    <div class="container">
+        <div class="row">
+            {%- include menu-pc.html -%}
+        </div>
+    </div>
+</div>
+<div class="hot-deal-products">
+    <div class="container">
+       <div class="post-title pb-10">
+           <h2>Quạt Bàn</h2>
+       </div>
+    </div>
+</div>
+<div class="second-arrivals-product pb-15">
+    <div class="container">
+        <div class="main-product-tab-area">
+            <div class="tab-content">
+                <div class="best-seller-pro-active owl-carousel">
+                    {% for product in site.data.san-pham %}
+                        {% if product.type2 == "ban" %}
+                            {%- include show-product.html -%}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hot-deal-products">
+    <div class="container">
+       <div class="post-title pb-10">
+           <h2>Quạt Lửng</h2>
+       </div>
+    </div>
+</div>
+<div class="second-arrivals-product pb-15">
+    <div class="container">
+        <div class="main-product-tab-area">
+            <div class="tab-content">
+                <div class="best-seller-pro-active owl-carousel">
+                    {% for product in site.data.san-pham %}
+                        {% if product.type2 == "lung" %}
+                            {%- include show-product.html -%}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hot-deal-products">
+    <div class="container">
+       <div class="post-title pb-10">
+           <h2>Quạt Treo</h2>
+       </div>
+    </div>
+</div>
+<div class="second-arrivals-product pb-15">
+    <div class="container">
+        <div class="main-product-tab-area">
+            <div class="tab-content">
+                <div class="best-seller-pro-active owl-carousel">
+                    {% for product in site.data.san-pham %}
+                        {% if product.type2 == "treo" %}
+                            {%- include show-product.html -%}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hot-deal-products">
+    <div class="container">
+       <div class="post-title pb-10">
+           <h2>Quạt Đứng</h2>
+       </div>
+    </div>
+</div>
+<div class="second-arrivals-product pb-15">
+    <div class="container">
+        <div class="main-product-tab-area">
+            <div class="tab-content">
+                <div class="best-seller-pro-active owl-carousel">
+                    {% for product in site.data.san-pham %}
+                        {% if product.type2 == "dung" %}
+                            {%- include show-product.html -%}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hot-deal-products">
+    <div class="container">
+       <div class="post-title pb-10">
+           <h2>Quạt Bàn Đảo</h2>
+       </div>
+    </div>
+</div>
+<div class="second-arrivals-product pb-15">
+    <div class="container">
+        <div class="main-product-tab-area">
+            <div class="tab-content">
+                <div class="best-seller-pro-active owl-carousel">
+                    {% for product in site.data.san-pham %}
+                        {% if product.type2 == "bd" %}
+                            {%- include show-product.html -%}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hot-deal-products">
+    <div class="container">
+       <div class="post-title pb-10">
+           <h2>Quạt Hút</h2>
+       </div>
+    </div>
+</div>
+<div class="second-arrivals-product pb-15">
+    <div class="container">
+        <div class="main-product-tab-area">
+            <div class="tab-content">
+                <div class="best-seller-pro-active owl-carousel">
+                    {% for product in site.data.san-pham %}
+                        {% if product.type2 == "hut" %}
+                            {%- include show-product.html -%}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
