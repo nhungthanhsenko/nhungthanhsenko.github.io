@@ -1,0 +1,92 @@
+---
+layout: product-detail
+title: Máy Sấy Panasonic 552
+permalink: /may-say-panasonic-552/
+---
+{% assign model = "552" %}
+{% for product in site.data.san-pham %}
+  {% if product.model  == model %}
+      {%- include detail-1.html -%}
+      <div class="tab-content">
+                <div id="thumb1" class="tab-pane fade show active">
+                    <a data-fancybox="images" href="\assets\img\{{ model }}\active\may-say-panasonic-552-1.jpg">
+                        <img src="\assets\img\{{ model }}\active\may-say-panasonic-552-1.jpg" alt="product-view"></a>
+                </div>
+          <div id="thumb2" class="tab-pane fade">
+              <a data-fancybox="images" href="\assets\img\{{ model }}\active\may-say-panasonic-552-2.jpg">
+                <img src="\assets\img\{{ model }}\active\may-say-panasonic-552-2.jpg" alt="product-view"></a>
+          </div>
+      </div>
+      <div class="product-thumbnail mt-15">
+          <div class="thumb-menu owl-carousel nav tabs-area" role="tablist">
+              <a class="active" data-toggle="tab" href="#thumb1"><img src="\assets\img\{{ model }}\active\may-say-panasonic-552-1.jpg" alt="product-thumbnail"></a>
+              <a class="active" data-toggle="tab" href="#thumb2"><img src="\assets\img\{{ model }}\active\may-say-panasonic-552-2.jpg" alt="product-thumbnail"></a>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-7">
+        <div class="thubnail-desc fix">
+            <h1 class="product-header">{{ page.title }}</h1>
+            <div class="mt-10">
+                <table border="0" class="table">
+                    <tbody>
+                        <tr>
+                            <td class="table-td">
+                                <p>Mã Sản Phẩm</p>
+                            </td>
+                            <td class="table-td">
+                                <p>{{ product.model | upcase }}</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-td">
+                                <p>Tốc độ sấy</p>
+                            </td>
+                            <td class="table-td">
+                                <p>2 tốc độ </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-td">
+                                <p>Công suất</p>
+                            </td>
+                            <td class="table-td">
+                                <p>2800W</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-td">
+                                <p>Kích thước</p>
+                            </td>
+                            <td class="table-td">
+                                <p>248x105x207 (mm)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-td">
+                                <p>Máy sấy có 2 công tắc</p>
+                            </td>
+                            <td class="table-td">
+                                <p>1 công tắc có chức năng bật/tắt 2 chiều nóng/lạnh, 1 công tắc điều chỉnh tốc độ sấy</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-td">
+                                <p>Xuất xứ</p>
+                            </td>
+                            <td class="table-td">
+                                <p>Quảng Châu</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div> 
+      
+{% endif %}
+{% endfor %}
